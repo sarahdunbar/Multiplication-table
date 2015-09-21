@@ -21,6 +21,10 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
-for i in range(1, 11):
-    for j in range (1, 9):
-        print(i*j)
+
+i = input ("Width of multiplication table: ")
+i = int(i)
+j = input ("Height of multiplication table: ")
+j = int(j)
+for x in range(i)
+    for j in range(j)
