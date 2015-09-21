@@ -26,5 +26,7 @@ i = input ("Width of multiplication table: ")
 i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
-for x in range(i)
-    for j in range(j)
+for x in range(j)
+    print ["X" for x in range(i)]
+
+    
