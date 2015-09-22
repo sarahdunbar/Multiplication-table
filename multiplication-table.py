@@ -1,8 +1,8 @@
 """
 multiplication-table.py
 Author: Sarah Dunbar
-Credit: http://stackoverflow.com/questions/12102749/how-can-i-suppress-the-newline-after-a-print-statement
-https://docs.python.org/3.3/library/functions.html#print
+Credit: http://stackoverflow.com/questions/12102749/how-can-i-suppress-the-newline-after-a-print-statement,
+https://docs.python.org/3.3/library/functions.html#print, Mr. Dennison
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -28,13 +28,11 @@ i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
 
-r = 0
-while r < i:
-    t = 0
-    while t < j:
-        print((i*j), " ", end="")
+r = 1
+while r <= j:
+    t = 1
+    while t <= i:
+        print("{0:>3}".format(r*t), " ", end="")
         t = t + 1
     print(" ", end="\n")
     r = r + 1
-
-    
