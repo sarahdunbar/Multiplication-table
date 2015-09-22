@@ -2,6 +2,7 @@
 multiplication-table.py
 Author: Sarah Dunbar
 Credit: http://stackoverflow.com/questions/12102749/how-can-i-suppress-the-newline-after-a-print-statement
+https://docs.python.org/3.3/library/functions.html#print
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -28,10 +29,11 @@ j = input ("Height of multiplication table: ")
 j = int(j)
 
 r = 0
-    while r < i:
-        t = 0
-        while t < j:
-            print("X", " ", end="")
-            t = t + 1
-        r = r + 1
+for x in range(i):
+    t = 0
+    while t < j:
+        print("", " ", end="")
+        t = t + 1
+    print(" ", end="\n")
+    r = r + 1
     
