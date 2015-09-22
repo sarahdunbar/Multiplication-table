@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Sarah Dunbar
+Credit: http://stackoverflow.com/questions/12102749/how-can-i-suppress-the-newline-after-a-print-statement
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -27,10 +27,7 @@ i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
 for t in range(j):
-    x = 1
-    while x < i:
-        print ("X  ")
-        x = x + 1
-        
+    for x in range(
+    print("X", " ", end="")
 
     
