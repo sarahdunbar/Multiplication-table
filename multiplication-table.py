@@ -26,7 +26,12 @@ i = input ("Width of multiplication table: ")
 i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
-for t in range(j):
-    print("X", " ", end="")
 
+r = 0
+    while r < i:
+        t = 0
+        while t < j:
+            print("X", " ", end="")
+            t = t + 1
+        r = r + 1
     
