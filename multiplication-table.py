@@ -28,10 +28,9 @@ i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
 
-r = 0
-for x in range(j):
-    for x in range(i):
-        print("i*j", " ", end="")
+for x in range(i):
+    for x in range(j):
+        print((i*j), " ", end="")
     print(" ", end="\n")
 
     
