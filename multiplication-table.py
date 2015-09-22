@@ -27,7 +27,6 @@ i = int(i)
 j = input ("Height of multiplication table: ")
 j = int(j)
 for t in range(j):
-    for x in range(
     print("X", " ", end="")
 
     
